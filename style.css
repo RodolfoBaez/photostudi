@@ -364,11 +364,6 @@ img{
   margin-top: 5 rem;
 }
 
-#checkout img{
-  height: 15rem;
-  width:18rem;
-}
-
 .image {
   opacity: 1;
   width: 100%;
@@ -407,4 +402,16 @@ img{
 #shop3img img{
   height: 15rem;
   width:18rem;
+}
+
+/*shop-4 page*/
+
+#checkout img{
+  height: 15rem;
+  width:18rem;
+}
+
+#numbers{
+  padding-left: 1rem;
+  color:blue;
 }
