@@ -339,9 +339,6 @@ img{
   color:green;
 }
 
-#store img{
-    height: 15rem;
-}
 
 
 .buy {
@@ -361,9 +358,35 @@ img{
 .buy:hover, .buy:focus, .buy:active, .buy.active, .open>.dropdown-toggle.buy-{
     color: white;
     background-color:Green;
-
 }
 
 #sellitems{
-  margin-top: 5 rem; 
+  margin-top: 5 rem;
+}
+
+.image {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: 1s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-section:hover .image {
+  opacity: 0.3;
+}
+
+.image-section:hover .middle {
+  opacity: 1;
 }
