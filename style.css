@@ -13,14 +13,20 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0px;
+
 }
 
 .logo {
   font-size: 20px;
+  text-shadow: 0.5rem .5rem .8rem black;
 }
 
+
 .nav-open {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  transform: translateY(-100%);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -30,25 +36,45 @@ nav {
   z-index: 1;
   color: black;
   display: grid;
-  grid-template-columns: 5% 1fr 1fr 5%;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
-  transform: translateY(-100%);
+  grid-template-columns:50% 50%;
+  grid-template-rows: 100%;
+  grid-template-areas:
+ "contact social "
 }
 
 .contact {
-  grid-column: 2/3;
+  grid-area:contact;
+  padding-top: 2.9rem;
 }
+
+.social{
+   grid-area:social:
+}
+
+.btn8{
+  border: .1rem solid;
+ padding-top: .6rem;
+ padding-left: .8rem;
+ padding-right: .8rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background:black;
+  color: white;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.btn8:hover, .btn8:focus, .btn8:active, .btn8.active, .open>.dropdown-toggle.btn8-{
+    color: black;
+    background-color:white;
+}
+
 .nav-open h3 {
   font-size: 28px;
   padding-bottom: 40px;
 }
 .nav-open p {
   font-size: 18px;
-}
-.social-links img {
-  padding: 0px 20px;
 }
 
 .logo,
@@ -61,11 +87,283 @@ nav {
 
 /*Nav ends*/
 
+/*Home landin page*/
 .portofolio {
+    font-family: 'Gayathri', sans-serif;
   color: white;
-  background: url("aperture-camera-electronics-1655817.jpg");
+  background: url("black-and-white-black-background-camera-1595244.jpg");
   min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+main{
+  text-align: center !important;
+  padding-top:20rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  text-shadow: 0.5rem .5rem .8rem black;
+}
+
+main h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+main h3{
+  font-size: 1.3rem;
+}
+
+.btn {
+  border: .1rem solid;
+  padding: 1rem ;
+  font-size: 1rem;
+  cursor: pointer;
+  background:black;
+  color: white;
+  margin-top: 1rem;
+   margin-right: 1rem;
+}
+
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn-{
+    color: black;
+    background-color:white;
+}
+/*Home ends*/
+
+
+
+
+/*shop page*/
+.shop-landing {
+  font-family: 'Gayathri', sans-serif;
+  color: white;
+  background: url("aperture-camera-electronics-1655817.jpg");
+  min-height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.main{
+  text-align: center !important;
+  padding-top:2rem;
+}
+
+.main h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  text-shadow: 0.5rem .5rem .8rem black;
+}
+
+.main h3{
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  text-shadow: 0.5rem .5rem .8rem black;
+}
+
+.bnt {
+  border: .1rem solid;
+ padding-top: .6rem;
+ padding-left: .8rem;
+ padding-right: .8rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background:black;
+  color: white;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+
+/*for slice image*/
+.bnt:hover, .bnt:focus, .bnt:active, .bnt.active, .open>.dropdown-toggle.bnt-{
+    color: black;
+    background-color:white;
+}
+
+
+img{
+    height: 15rem;
+}
+
+.hero {
+  overflow: hidden;
+  height: 20rem;
+}
+
+.hero img {
+  height: 20rem;
+  transition: transform 1s ease-out;
+  cursor: pointer;
+}
+
+.hero a {
+  display: flex;
+}
+
+
+.model-right {
+  transform: translate(0%, 10%);
+}
+.model-left {
+  transform: translate(0%, -10%);
+}
+
+.hero:hover .model-right {
+  transform: translate(0%, 0%);
+}
+.hero:hover .model-left {
+  transform: translate(0%, 0%);
+}
+
+.content{
+  padding-left: 3.5rem;
+
+}
+
+#details{
+  margin-top: 5rem;
+}
+
+
+.bnt1 {
+  border: .1rem solid;
+  padding: .8rem ;
+  font-size: 1rem;
+  cursor: pointer;
+  background:white;
+  color: blue;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.bnt1:hover, .bnt1:focus, .bnt1:active, .bnt1.active, .open>.dropdown-toggle.bnt1-{
+    color: white;
+    background-color:blue;
+
+}
+
+
+
+.bnt2 {
+  border: .1rem solid;
+  padding: .8rem ;
+  font-size: 1rem;
+  cursor: pointer;
+  background:white;
+  color: orange;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.bnt2:hover, .bnt2:focus, .bnt2:active, .bnt1.active, .open>.dropdown-toggle.bnt2-{
+    color: white;
+    background-color:orange;
+
+}
+
+
+.bnt3 {
+  border: .1rem solid;
+  padding: .8rem ;
+  font-size: 1rem;
+  cursor: pointer;
+  background:white;
+  color: #9db9ff;
+  margin-top: 1rem;
+  margin-right: 1rem;
+
+}
+
+.bnt3:hover, .bnt3:focus, .bnt2:active, .bnt1.active, .open>.dropdown-toggle.bnt3-{
+    color: white;
+    background-color:#9db9ff;
+
+}
+
+
+
+
+/*for slice image end*/
+/*shop page end*/
+
+
+/*shop-2 page*/
+.shop2-landing {
+  font-family: 'Gayathri', sans-serif;
+  color: white;
+  background: url("apple-black-and-white-camera-306763.jpg");
+  min-height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+.main1{
+  text-align: center !important;
+  padding-top:2rem;
+}
+
+.main1 h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  text-shadow: 0.1rem .1rem .8rem black;
+}
+
+.main1 h3{
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  text-shadow: 0.1rem .1rem .8rem black;
+}
+
+#store h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+
+}
+#store h4{
+  color:green;
+}
+
+#store img{
+    height: 15rem;
+}
+
+
+.buy {
+  border: .1rem solid;
+  padding: .8rem ;
+  font-size: 1rem;
+  cursor: pointer;
+  background:white;
+  color: green;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  padding-left:2rem;
+  padding-right:2rem;
+
+}
+
+.buy:hover, .buy:focus, .buy:active, .buy.active, .open>.dropdown-toggle.buy-{
+    color: white;
+    background-color:Green;
+
+}
+
+#sellitems{
+  margin-top: 5 rem; 
 }
