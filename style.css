@@ -300,7 +300,7 @@ img{
   font-family: 'Gayathri', sans-serif;
   color: white;
   background: url("apple-black-and-white-camera-306763.jpg");
-  min-height: 40vh;
+  min-height: 45vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -364,6 +364,11 @@ img{
   margin-top: 5 rem;
 }
 
+#checkout img{
+  height: 15rem;
+  width:18rem;
+}
+
 .image {
   opacity: 1;
   width: 100%;
@@ -389,4 +394,17 @@ img{
 
 .image-section:hover .middle {
   opacity: 1;
+}
+
+
+/*shop-3 page*/
+#store a{
+  color:#D23636;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#shop3img img{
+  height: 15rem;
+  width:18rem;
 }
