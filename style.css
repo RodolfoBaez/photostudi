@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 nav {
   min-height: 10vh;
   width: 90%;
@@ -29,7 +30,7 @@ nav {
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 50vh;
+  height: 45vh;
   background: white;
   z-index: 1;
   color: black;
@@ -51,21 +52,17 @@ nav {
 
 .btn8 {
   border: .1rem solid;
-  padding-top: .6rem;
+
   padding-left: .8rem;
   padding-right: .8rem;
   font-size: 1.3rem;
   cursor: pointer;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   margin-top: 1rem;
   margin-right: 1rem;
 }
 
-.btn8:hover, .btn8:focus, .btn8:active, .btn8.active, .open>.dropdown-toggle.btn8- {
-  color: black;
-  background-color: white;
-}
 
 .nav-open h3 {
   font-size: 28px;
@@ -88,7 +85,6 @@ nav {
 /*Nav ends*/
 /*Home landin page*/
 .portofolio {
-  font-family: 'Gayathri', sans-serif;
   color: white;
   background: url("black-and-white-black-background-camera-1595244.jpg");
   min-height: 100vh;
@@ -133,7 +129,6 @@ main h3 {
 /*Home ends*/
 /*shop page*/
 .shop-landing {
-  font-family: 'Gayathri', sans-serif;
   color: white;
   background: url("aperture-camera-electronics-1655817.jpg");
   min-height: 60vh;
@@ -164,15 +159,21 @@ main h3 {
 
 .bnt {
   border: .1rem solid;
-  padding-top: .6rem;
-  padding-left: .8rem;
-  padding-right: .8rem;
+  padding-left: .9rem;
+  padding-right: .9rem;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
   font-size: 1.3rem;
   cursor: pointer;
   background: black;
   color: white;
   margin-top: 1rem;
   margin-right: 1rem;
+}
+
+#shop h2, h3 {
+  font-weight: bold;
+
 }
 
 /*for slice image*/
@@ -276,7 +277,6 @@ img {
 /*shop page end*/
 /*shop-2 page*/
 .shop2-landing {
-  font-family: 'Gayathri', sans-serif;
   color: white;
   background: url("apple-black-and-white-camera-306763.jpg");
   min-height: 45vh;
@@ -305,14 +305,7 @@ img {
   text-shadow: 0.1rem .1rem .8rem black;
 }
 
-#store h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  letter-spacing: .1rem;
-}
-
-#store h4 {
+.free {
   color: green;
 }
 
@@ -365,6 +358,10 @@ img {
   opacity: 1;
 }
 
+#store h2 {
+  font-weight: bold;
+}
+
 /*shop-3 page*/
 #store a {
   color: #D23636;
@@ -382,7 +379,6 @@ img {
   height: 15rem;
   width: 18rem;
 }
-
 
 /*course page*/
 .bnt22 {
@@ -402,11 +398,37 @@ img {
 }
 
 .course-landing {
-  font-family: 'Gayathri', sans-serif;
   color: white;
   background: url("aperture-camera-camera-lens-2619489.jpg");
   min-height: 60vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+/*course2 page*/
+#course2 a {
+  color: #D23636;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#course2 img {
+  margin-top: 3.5rem;
+  min-height: 45vh;
+  min-width: 35vw;
+}
+
+p {
+  word-spacing: .1rem;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+#course2 h2, h1 {
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
 }
