@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-
 nav {
   min-height: 10vh;
   width: 90%;
@@ -52,7 +51,6 @@ nav {
 
 .btn8 {
   border: .1rem solid;
-
   padding-left: .8rem;
   padding-right: .8rem;
   font-size: 1.3rem;
@@ -62,7 +60,6 @@ nav {
   margin-top: 1rem;
   margin-right: 1rem;
 }
-
 
 .nav-open h3 {
   font-size: 28px;
@@ -173,7 +170,6 @@ main h3 {
 
 #shop h2, h3 {
   font-weight: bold;
-
 }
 
 /*for slice image*/
